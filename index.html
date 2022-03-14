@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="jquery-2.1.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  
+  
+
+  <body class="welcome">
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+   
+    <header class="navbar-fixed"> 
+      <nav class="row deep-purple darken-3">
+        <div class="col s12">
+          <ul class="right">
+            <li class="right">
+              <a href="" target="_blank" class="fa fa-facebook-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+            </li>
+            <li class="right">
+              <a href="" target="_blank" class="fa fa-github-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+
+    
+   
+
+
+<div class="wrapper">
+    <header>
+        <div class="logo">
+            <img style=width:100px height="100px" src="images/1.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Interests</a>
+                    <ul>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">C</a></li>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Me!</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a class="btn" href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="text">
+            <p>Hi I'm <span>Yogesh Jadhav.</span>Most Welcome to my new <span>Angular Project</span>. I will complete this project very soon. Just  for <span>  trial purpose </span>I Deployed the site</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="img">
+            <div class="social-icons">
+               <a href="https://www.instagram.com/y_o_g_a_4_1_4_4/"> <img src="images/social-icon1.png" alt=""></a>
+                <img src="images/social-icon2.png" alt="">
+                <img src="images/social-icon3.png" alt="">
+                <img src="images/social-icon4.png" alt="">
+                <img src="images/social-icon5.png" alt="">
+            </div>
+            <img class="email-icon" src="images/email-icon.png" alt="">
+        </div>
+    </div>
+
+<div class="wave">
+    <img src="images/wave.svg" alt="">
+</div>
+
+</div>
+
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCqr_jLlqaZW4-rfbeYpEkG4tVKNAc9bn0",
+    authDomain: "msctri3.firebaseapp.com",
+    projectId: "msctri3",
+    storageBucket: "msctri3.appspot.com",
+    messagingSenderId: "415463996706",
+    appId: "1:415463996706:web:e7cac0d152e8486cc0b97b",
+    measurementId: "G-TPPBGPNF0Y"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    
+  </body>
+</html>
